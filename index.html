@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MindWell AI — Home</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <!-- Google Fonts: Inter & Nunito Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for extra icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR: sticky header, logo, improved accessibility -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+        role="navigation"
+        aria-label="Main Navigation"
+      >
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="images/favicon.svg"
+              alt="MindWell AI Logo"
+              class="logo-image"
+              width="32"
+              height="32"
+            />
+            <span class="brand-text">MindWell AI</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="features.html"
+                  ><i class="fa-solid fa-bolt"></i> Features</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resources.html"
+                  ><i class="fa-solid fa-book"></i> Resources</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"
+                  ><i class="fa-solid fa-circle-info"></i> About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"
+                  ><i class="fa-solid fa-envelope"></i> Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"
+                  ><i class="fa-regular fa-user"></i> Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary nav-cta ms-2" href="chatbot.html"
+                  ><i class="fa-solid fa-comments"></i> Open Chat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="hero text-center d-flex align-items-center justify-content-center"
+      style="
+        background: url('images/background-calm.jpg') center/cover,
+          linear-gradient(to bottom right, #a8edea, #fed6e3);
+        min-height: 100vh;
+      "
+      aria-label="Welcome section"
+    >
+      <div class="container">
+        <h1
+          class="display-5 fw-bold text-dark"
+          style="font-family: 'Nunito Sans', 'Inter', sans-serif"
+        >
+          <i class="fa-solid fa-brain text-primary"></i> Your Personalized AI
+          Companion for Mental Wellness
+        </h1>
+        <p
+          class="lead text-muted mt-3 mb-4"
+          style="font-family: 'Inter', sans-serif"
+        >
+          MindWell AI helps you find calm, clarity, and confidence — wherever
+          you are, whenever you need it.
+        </p>
+        <a
+          href="chatbot.html"
+          class="btn btn-primary btn-lg rounded-pill shadow"
+        >
+          <i class="fa-solid fa-robot"></i> Try the AI Chatbot
+        </a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4">Why Choose MindWell AI?</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <div class="icon-round bg-soft-blue mb-3 mx-auto">
+                  <i
+                    class="fa-solid fa-comments fa-2x text-primary"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <h5 class="card-title fw-bold text-primary">AI Chat Support</h5>
+                <p class="card-text">
+                  Talk to an AI that listens, understands, and supports your
+                  emotional wellbeing in real time.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <div class="icon-round bg-soft-green mb-3 mx-auto">
+                  <i
+                    class="fa-solid fa-spa fa-2x text-success"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <h5 class="card-title fw-bold text-primary">
+                  Guided Meditations
+                </h5>
+                <p class="card-text">
+                  Access calming guided meditations tailored to your stress
+                  levels and daily mood.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <div class="icon-round bg-soft-gold mb-3 mx-auto">
+                  <i
+                    class="fa-solid fa-book-medical fa-2x text-warning"
+                    aria-hidden="true"
+                  ></i>
+                </div>
+                <h5 class="card-title fw-bold text-primary">Mood Journaling</h5>
+                <p class="card-text">
+                  Track your emotional patterns and get personalized insights
+                  for self-improvement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          href="features.html"
+          class="btn btn-outline-primary mt-5 rounded-pill"
+          >Explore All Features</a
+        >
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">What Our Users Say</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    src="https://api.dicebear.com/6.x/avataaars/svg?seed=1"
+                    alt="User Avatar"
+                    class="rounded-circle"
+                    width="50"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">Sarah J.</h6>
+                    <small class="text-muted">Student</small>
+                  </div>
+                </div>
+                <p class="card-text">
+                  "MindWell AI helped me manage my anxiety during finals. The
+                  meditation exercises are exactly what I needed."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    src="https://api.dicebear.com/6.x/avataaars/svg?seed=2"
+                    alt="User Avatar"
+                    class="rounded-circle"
+                    width="50"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">Michael R.</h6>
+                    <small class="text-muted">Professional</small>
+                  </div>
+                </div>
+                <p class="card-text">
+                  "The daily check-ins and mood tracking have helped me
+                  understand my emotional patterns better."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <img
+                    src="https://api.dicebear.com/6.x/avataaars/svg?seed=3"
+                    alt="User Avatar"
+                    class="rounded-circle"
+                    width="50"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">Emily T.</h6>
+                    <small class="text-muted">Teacher</small>
+                  </div>
+                </div>
+                <p class="card-text">
+                  "Having 24/7 access to supportive conversations has made a
+                  huge difference in my mental health journey."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-5 how-it-works">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">How MindWell AI Works</h2>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="circle-icon mb-3">1</div>
+              <h5>Sign Up</h5>
+              <p>Create your free account in less than 2 minutes</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="circle-icon mb-3">2</div>
+              <h5>Share Your Goals</h5>
+              <p>Tell us what you'd like to work on</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="circle-icon mb-3">3</div>
+              <h5>Get Matched</h5>
+              <p>Our AI adapts to your unique needs</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="circle-icon mb-3">4</div>
+              <h5>Start Growing</h5>
+              <p>Begin your journey to better mental health</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row g-4 text-center align-items-center">
+          <div class="col-6 col-md-3">
+            <div class="stat">
+              <div class="stat-icon mb-2">
+                <i class="fa-solid fa-users fa-2x" aria-hidden="true"></i>
+              </div>
+              <h3 class="fw-bold">50,000+</h3>
+              <p class="mb-0">Active Users</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat">
+              <div class="stat-icon mb-2">
+                <i class="fa-solid fa-headset fa-2x" aria-hidden="true"></i>
+              </div>
+              <h3 class="fw-bold">24/7</h3>
+              <p class="mb-0">AI Support</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat">
+              <div class="stat-icon mb-2">
+                <i class="fa-solid fa-star fa-2x" aria-hidden="true"></i>
+              </div>
+              <h3 class="fw-bold">95%</h3>
+              <p class="mb-0">Satisfaction Rate</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat">
+              <div class="stat-icon mb-2">
+                <i class="fa-solid fa-heart-pulse fa-2x" aria-hidden="true"></i>
+              </div>
+              <h3 class="fw-bold">100+</h3>
+              <p class="mb-0">Wellness Activities</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <h5 class="mb-3">
+              <img
+                src="images/mindwellLogo.png"
+                alt="MindWell AI Logo"
+                width="32"
+                height="32"
+                style="vertical-align: middle; margin-right: 8px"
+              />
+              MindWell AI
+            </h5>
+            <p class="mb-3">
+              Empowering mental wellness through innovative AI technology.
+            </p>
+            <div class="social-links" aria-label="Social Media Links">
+              <a href="#" class="text-white me-3" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="text-white me-3" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-3" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <h6 class="mb-3">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="features.html" class="text-white-50">Features</a>
+              </li>
+              <li>
+                <a href="resources.html" class="text-white-50">Resources</a>
+              </li>
+              <li><a href="about.html" class="text-white-50">About Us</a></li>
+              <li><a href="contact.html" class="text-white-50">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="mb-3">Resources</h6>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white-50">Blog</a></li>
+              <li><a href="#" class="text-white-50">Mental Health Tips</a></li>
+              <li><a href="#" class="text-white-50">FAQ</a></li>
+              <li><a href="#" class="text-white-50">Support</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="mb-3">Newsletter</h6>
+            <p class="small">Subscribe for updates and wellness tips</p>
+            <form class="mb-3">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <button class="btn btn-primary" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">&copy; 2025 MindWell AI. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a href="privacy.html" class="text-white-50 me-3">Privacy Policy</a>
+            <a href="terms.html" class="text-white-50">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script src="chatbot-new.js" defer></script>
+  </body>
+</html>

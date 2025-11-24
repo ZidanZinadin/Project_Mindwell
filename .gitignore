@@ -1,0 +1,28 @@
+# Environment variables - DO NOT COMMIT
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if you use npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
