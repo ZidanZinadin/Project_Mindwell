@@ -10,35 +10,18 @@ AI-powered mental wellbeing assistant with integrated chatbot support.
 - Privacy-focused design
 - Cross-browser compatible
 
-## Requirements
+## Usage
 
-- Node.js 14+
-- Deepseek API key
+This repository contains the static frontend for Mindwell Pulse. The site is intended to run as a static site (for example, via GitHub Pages) and does not require a backend for the local chatbot and demo functionality.
 
-## Installation
-
-```bash
-npm install
-```
-
-## Setup
-
-1. Copy `.env.example` to `.env`
-2. Add your Deepseek API key to `.env`
-3. Start the server:
-
-```bash
-npm start
-```
-
-The application will be available at `http://localhost:3000`
+If you plan to run a separate backend (not included in this repository), keep API keys and secrets out of this public repo and deploy the server separately.
 
 ## Project Structure
 
 ```
 ├── index.html           - Home page
 ├── chatbot.html         - Chat interface
-├── server.js            - Backend API
+├── (server removed)     - Backend code removed; project is static-only
 ├── chatbot-new.js       - Chat widget
 ├── package.json         - Dependencies
 └── .env.example         - Environment template
@@ -46,10 +29,10 @@ The application will be available at `http://localhost:3000`
 
 ## API Endpoints
 
-- `GET /health` - Server health check
-- `POST /api/chat` - Send message and receive response
+This repository no longer contains a backend. The frontend uses a local, client-side chatbot by default. If you need a server-backed chatbot, maintain it in a separate private repo or folder and do not store secrets in this repo.
 
 ## License
 
 MIT
+
 # Updated Mon Nov 24 12:46:13 GMT 2025
