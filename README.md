@@ -1,4 +1,4 @@
-# Mindwell Pulse
+# Mindwell AI
 
 AI-powered mental wellbeing assistant with integrated chatbot support.
 
@@ -12,7 +12,7 @@ AI-powered mental wellbeing assistant with integrated chatbot support.
 
 ## Usage
 
-This repository contains the static frontend for Mindwell Pulse. The site is intended to run as a static site (for example, via GitHub Pages) and does not require a backend for the local chatbot and demo functionality.
+This repository contains the static frontend for Mindwell AI. The site is intended to run as a static site (for example, via GitHub Pages) and does not require a backend for the local chatbot and demo functionality.
 
 If you plan to run a separate backend (not included in this repository), keep API keys and secrets out of this public repo and deploy the server separately.
 
@@ -29,10 +29,10 @@ If you plan to run a separate backend (not included in this repository), keep AP
 
 ## API Endpoints
 
-This repository no longer contains a backend. The frontend uses a local, client-side chatbot by default. If you need a server-backed chatbot, maintain it in a separate private repo or folder and do not store secrets in this repo.
+This repository doesn't contain a backend. The frontend uses a local, client-side chatbot by default. If you need a server-backed chatbot, maintain it in a separate private repo or folder and do not store secrets in this repo.
 
 ## License
 
 MIT
 
-# Updated Mon Nov 24 12:46:13 GMT 2025
+# Updated Mon Dec 8 12:46:13 GMT 2025
